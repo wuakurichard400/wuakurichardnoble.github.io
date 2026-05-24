@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wuaku Richard Noble</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('profile.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+animation:fadeIn 2s ease;
+}
+
+header img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+margin-bottom:20px;
+}
+
+header h1{
+font-family:'Cinzel', serif;
+font-size:3rem;
+}
+
+header p{
+font-size:1.2rem;
+margin-top:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.4s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#111;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+h2{
+margin-bottom:20px;
+font-family:'Cinzel', serif;
+color:#111;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+transition:.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.socials a{
+display:inline-block;
+margin:10px;
+padding:10px 20px;
+background:#222;
+color:white;
+text-decoration:none;
+border-radius:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.contact-form button{
+padding:12px 25px;
+border:none;
+background:#ff9800;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+<img src="profile.jpg" alt="Wuaku Richard Noble">
+<h1>WUAKU RICHARD NOBLE</h1>
+<p>Computer Science (Software Engineering) Student</p>
+<a href="#about" class="btn">Explore More</a>
+</header>
+
+<section id="about">
+<div class="card">
+<h2>About Me</h2>
+
+<p>
+Welcome to my official personal website.
+My name is <strong>Wuaku Richard Noble</strong>. I was born in Takoradi, Ghana, and I am passionate about technology, leadership, learning, innovation, and personal development.
+</p>
+
+<br>
+
+<p><strong>Place of Birth:</strong> Takoradi</p>
+<p><strong>Current Location:</strong> Takoradi No. 1</p>
+
+</div>
+</section>
+
+<section id="education">
+<div class="card">
+
+<h2>Educational Background</h2>
+
+<p>
+My educational journey began at <strong>Peki Blengo E.P. School</strong>, where I studied from Kindergarten to JHS 3. During my final year in Junior High School, I had the privilege of serving as the <strong>Boys' Prefect</strong>. I successfully completed and wrote the <strong>Basic Education Certificate Examination (BECE)</strong>.
+</p>
+
+<br>
+
+<p>
+I continued my education at <strong>Bompeh Senior High Technical School, Takoradi</strong>, where I studied from <strong>2022 to 2025</strong>. During my final academic year, I had the honor of serving as the <strong>Protocol Prefect for the 2024/2025 academic year</strong>. I successfully completed my secondary education and sat for the <strong>West African Senior School Certificate Examination (WASSCE)</strong>.
+</p>
+
+<br>
+
+<p>
+Currently, I am pursuing a degree in <strong>Computer Science (Software Engineering)</strong> at <strong>Takoradi Technical University (TTU)</strong>. My studies focus on software engineering, programming, technology, innovation, problem-solving, and the development of modern software solutions.
+</p>
+
+</div>
+</section>
+
+<section id="gallery">
+<h2>Photo Gallery</h2>
+
+<div class="gallery">
+<img src="profile.jpg" alt="Photo">
+<img src="profile.jpg" alt="Photo">
+<img src="profile.jpg" alt="Photo">
+</div>
+
+</section>
+
+<section>
+<div class="card">
+
+<h2>Leadership Experience</h2>
+
+<p>• Boys' Prefect – Peki Blengo E.P. School (JHS 3)</p>
+<p>• Protocol Prefect – Bompeh Senior High Technical School (2024/2025)</p>
+<p>• Computer Science (Software Engineering) Student – Takoradi Technical University</p>
+
+</div>
+</section>
+
+<section>
+<div class="card">
+
+<h2>Follow Me</h2>
+
+<div class="socials">
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">WhatsApp</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+
+<h2>Contact Me</h2>
+
+<form class="contact-form">
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+<p>
+© 2026 Wuaku Richard Noble | Computer Science (Software Engineering) Student | Takoradi Technical University
+</p>
+</footer>
+
+</body>
+</html>
